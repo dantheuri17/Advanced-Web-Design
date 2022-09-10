@@ -1,0 +1,33 @@
+#title {
+    text-align: center;
+    margin-bottom: 50px; 
+    font-size: 50px;
+}
+
+#web_image { 
+    width: 100%;
+    height: auto;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+#course_items {
+    margin-top: 100px;
+
+
+}
+
+
+.list_items {
+    padding: 15px; 
+    font-size: 35px; 
+
+    margin-bottom: 4px;   
+    list-style-type: ' ▸';
+    margin-left: 0px;
+}
+
+
+
