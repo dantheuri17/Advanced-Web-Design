@@ -1,0 +1,45 @@
+body{
+    background-color: #FFFF00;
+}
+
+p {
+    text-align: justify;
+}
+
+.imagesContainer p {
+    margin: 20px;
+    margin-left: 5px;  
+}
+
+.title {
+    text-align: center;
+}
+
+
+.coverImage{
+    width: 60%; 
+    height: auto;
+    margin-bottom: 100px; 
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+.imagesContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px; 
+    margin-bottom: 200px; 
+}
+
+.kindergartenerImages{
+    width: 95%;
+    height: auto;
+}
+
+.imagesContainer img:hover {
+    border: 5px solid #0000FF;
+}
