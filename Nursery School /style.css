@@ -1,6 +1,58 @@
-body{
-    background-color: #FFFF00;
+html, body{
+    margin: 0;
+    padding: 0; 
 }
+
+/*****HEADER****/
+
+.header{
+    background-color: #FFFF00;
+    padding-bottom: 100px; 
+    margin-bottom: 100px; 
+}
+
+.coverImage{
+    width: 70%; 
+    height: auto;
+    margin-bottom: 100px; 
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+.schoolDescription{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header p,h2{
+    text-align: center; 
+
+}
+
+.header h2{
+    font-size: 40px; 
+
+}
+
+.header p{
+    font-size: 20px; 
+}
+
+.enrollButton {
+    color: white; 
+    font-size: 15px; 
+    background-color: #0000FF;
+    padding: 10px 15px;  
+    margin-top: 50px; 
+    
+}
+
+
+/******BODY********/
 
 p {
     text-align: justify;
@@ -15,18 +67,6 @@ p {
     text-align: center;
 }
 
-
-.coverImage{
-    width: 60%; 
-    height: auto;
-    margin-bottom: 100px; 
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-
-}
-
 .imagesContainer{
     display: flex;
     justify-content: space-between;
@@ -35,9 +75,10 @@ p {
     margin-bottom: 200px; 
 }
 
+
 .kindergartenerImages{
     width: 95%;
-    height: auto;
+    height: 60%;
 }
 
 .imagesContainer img:hover {
